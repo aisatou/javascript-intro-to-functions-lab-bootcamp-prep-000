@@ -21,10 +21,14 @@ function logWhisper(string) {
 
 // }
 
-if (dog === "hungry") {
-  console.log("Refilling food bowl.")
-} else if (dog === "thirsty") {
-  console.log("Refilling water bowl.")
+function sayHiToGrandma(string) {
+if (string.toUpperCase() === true) {
+  return "I can't hear you!"
+  
+} else if (string.toUpperCase === 'YES INDEED!') {
+  console.log("I can't hear you!")
+  
 } else {
   console.log("Reading newspaper.")
+}
 }
