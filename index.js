@@ -22,13 +22,14 @@ function logWhisper(string) {
 // }
 
 function sayHiToGrandma(string) {
-if (string.toUpperCase() === true) {
+if (string.toLowerCase() === true) {
   return "I can't hear you!"
   
-} else if (string.toUpperCase === 'YES INDEED!') {
-  console.log("I can't hear you!")
+} else if (string.toUpperCase() === true) {
+  return "YES INDEED!";
   
 } else {
-  console.log("Reading newspaper.")
+  (string === "I love you, Granma.");
+  return "I love you, too.";
 }
 }
