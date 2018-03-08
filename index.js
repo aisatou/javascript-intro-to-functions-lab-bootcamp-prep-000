@@ -29,7 +29,6 @@ if (string.toLowerCase() === true) {
   return "YES INDEED!";
   
 } else {
-  (string === "I love you, Granma.");
   return "I love you, too.";
 }
 }
