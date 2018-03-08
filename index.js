@@ -12,17 +12,15 @@ function logWhisper(string) {
   console.log(string.toLowerCase());
 }
 
-function sayHiToGrandma(string) {
-  if (string.toLowerCase() === true) {
-  return "I can't hear you!";
-} else if {
+// function sayHiToGrandma(string) {
+//   if (string.toLowerCase() === true) {
+//   return "I can't hear you!";
+// } else if {
   
- else (string.toUpperCase() === true)
+// else (string.toUpperCase() === true)
 
-}
+// }
 
-var dog = "thirsty"
- 
 if (dog === "hungry") {
   console.log("Refilling food bowl.")
 } else if (dog === "thirsty") {
